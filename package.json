@@ -32,6 +32,9 @@
   },
   "name": "testlib-rj",
   "author": "Rj Manhas",
+  "repository": {
+    "url": "https://github.com/RjManhas/test-package"
+  },
   "module": "dist/testlib.esm.js",
   "size-limit": [
     {
