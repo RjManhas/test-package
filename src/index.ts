@@ -1,4 +1,6 @@
 export const smartScanner = (name: string) => {
   console.log(`hello ${name}, this program will scan if you are smart!`);
-  console.log(`you are %${Math.round(Math.random() *100)}`);
+  const random: number = Math.round(Math.random() *100);
+  console.log(`you are %${random}}`);
+  return 1;
 };
