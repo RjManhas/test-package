@@ -1,6 +1,4 @@
-export const sum = (a: number, b: number) => {
-  if ('development' === process.env.NODE_ENV) {
-    console.log('boop');
-  }
-  return a + b;
+export const smartScanner = (name: string) => {
+  console.log(`hello ${name}, this program will scan if you are smart!`)
+  console.log(`you are %${Math.round(Math.random() *100)}`)
 };
